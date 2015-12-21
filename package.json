@@ -1,0 +1,23 @@
+{
+  "name": "browserify-starter-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build-js": "browserify js/main.js -o dist/js/heroes.js",
+    "watch-js": "watchify js/main.js -o dist/js/heroes.js -d",
+    "build-js-debug": "browserify js/main.js -o dist/js/heroes.js -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+      "browserify": "latest",
+      "watchify": "latest"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.1.4"
+  }
+}
